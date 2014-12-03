@@ -1,0 +1,16 @@
+                ./oculusd
+workstation@workstation:~/Desktop/ovr_sdk_linux_0.4.3$ ./oculusd 
+Error: {ERR-014} [NetServer] Unable to start listening socket
+OVR::DeviceManagerThread - running (ThreadId=0x7fb944451700).
+OVR::DeviceManager - initialized.
+OVR::Linux::HIDDevice - Opened '/dev/hidraw0'
+                    Manufacturer:'Oculus VR, Inc.'  Product:'Rift DK2'  Serial#:'MSCEM9R6K9DAKT00A200'
+Error: [HIDDevice] GetFeatureReport 4 failed
+OVR::Linux::HIDDevice - HID Device Closed '/dev/hidraw0'
+OVR::Linux::HIDDevice - HIDShutdown '/dev/hidraw0'
+Error: {ERR-023} [TrackingManager] Unable to create detected HMD sensor device
+workstation@workstation:~/Desktop/ovr_sdk_linux_0.4.3$ ./oculusd 
+Error: {ERR-014} [NetServer] Unable to start listening socket
+OVR::DeviceManagerThread - running (ThreadId=0x7f50b47e7700).
+OVR::DeviceManager - initialized.
+
